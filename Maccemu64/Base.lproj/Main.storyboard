@@ -707,12 +707,13 @@
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Maccemu64" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="856"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TP8-TO-1EL">
                                 <rect key="frame" x="0.0" y="0.0" width="648" height="856"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="QTC-8i-ETO"/>
+                                <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             </imageView>
                         </subviews>
                     </view>

@@ -14,6 +14,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print( "maccemu64 main view loaded...")
     }
 
     override var representedObject: Any? {
