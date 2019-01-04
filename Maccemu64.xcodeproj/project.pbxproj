@@ -53,12 +53,13 @@
 		059CCB7621DFFDFA005C201E /* Maccemu64 */ = {
 			isa = PBXGroup;
 			children = (
+				059CCB8A21E00150005C201E /* Model */,
+				059CCB8921E00132005C201E /* ViewControllers */,
 				059CCB7721DFFDFA005C201E /* AppDelegate.swift */,
-				059CCB7921DFFDFA005C201E /* ViewController.swift */,
-				059CCB7B21DFFDFB005C201E /* Assets.xcassets */,
 				059CCB7D21DFFDFB005C201E /* Main.storyboard */,
-				059CCB8821DFFE8E005C201E /* Supporting Files */,
+				059CCB7B21DFFDFB005C201E /* Assets.xcassets */,
 				059CCB8121DFFDFB005C201E /* Maccemu64.entitlements */,
+				059CCB8821DFFE8E005C201E /* Supporting Files */,
 			);
 			path = Maccemu64;
 			sourceTree = "<group>";
@@ -69,6 +70,21 @@
 				059CCB8021DFFDFB005C201E /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		059CCB8921E00132005C201E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				059CCB7921DFFDFA005C201E /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		059CCB8A21E00150005C201E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
