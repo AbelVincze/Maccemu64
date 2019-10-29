@@ -8,6 +8,13 @@
 
 import Cocoa
 
+class BitmapImageView: NSImageView {
+    override func draw(_ dirtyRect: NSRect ) {
+        NSGraphicsContext.current!.imageInterpolation = NSImageInterpolation.none
+        super.draw( dirtyRect )
+    }
+}
+
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
